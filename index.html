@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/calculator.jpg">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>A simple calculator</h1>
+        <div class="container">
+            <div class="screen">
+                <!-- <input type="text" value="0" dir="rtl" class="input"> -->
+                <div previous-operand class="previous-operand">123+</div>
+                <div current-operand class="current-operand">456</div>
+            </div>
+            <div class="btn-container">
+                <div class="buttons">
+                    <button data-all-clear class="btn clear">AC</button>
+                    <button data-delete class="btn delete">Del</button>
+                    <button data-operation class="btn operator">+/-</button>
+                    <button data-operation class="btn operator">/</button>
+                </div>
+                <div class="buttons">
+                    <button data-number class="btn number">7</button>
+                    <button data-number class="btn number">8</button>
+                    <button data-number class="btn number">9</button>
+                    <button data-operation class="btn operator">*</button>
+                </div>
+                <div class="buttons">
+                    <button data-number class="btn number">4</button>
+                    <button data-number class="btn number">5</button>
+                    <button data-number class="btn number">6</button>
+                    <button data-operation class="btn operator">-</button>
+                </div>
+                <div class="buttons">
+                    <button data-number class="btn number">1</button>
+                    <button data-number class="btn number">2</button>
+                    <button data-number class="btn number">3</button>
+                    <button data-operation class="btn operator">+</button>
+                </div>
+                <div class="buttons">
+                    <button data-number class="btn number">0</button>
+                    <button data-number class="btn">.</button>
+                    <button data-equals class="btn equal">=</button>
+
+                </div>
+
+
+            </div>
+        </div>
+        <h2>Designed by Mayorwise Technologies</h2>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
