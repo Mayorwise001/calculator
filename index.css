@@ -42,35 +42,24 @@ h2{
 }
 
 .screen{
-    width: 34vw;
-    height: 11vh;
+    width: 29vw;
+    height: 13vh;
     min-width: 300px;
-    align-items: center;
-    text-align: center;
+    align-items: end;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 2%;
     border-radius: 5px;
-
-}
-
-input{
-    width: 99%;
-    height: 80%;
-    outline: none;
-    border: none;
-    caret-color: transparent;
-    font-size: 30px;
-    padding-top: 5px;
-    border-radius: 5px;
-    padding-right: 5px;
-   
+    background-color:azure;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
 }
 
 .buttons{
     width: 100%;
-    text-align: center;
-   
-   
+    text-align: center;   
 }
 
 .btn-container{
@@ -87,10 +76,14 @@ input{
     background-color: rgb(179, 143, 14);
 }
 
-.btn0{
-    width: 153px;
-}
-
 .operator{
     background-color: rgb(107, 165, 246);
+}
+
+.clear, .delete, .equal{
+    background-color: rgb(107, 165, 246); 
+}
+
+.equal{
+    grid-column: span 2;
 }
